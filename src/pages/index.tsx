@@ -1,4 +1,5 @@
 import * as React from 'react'
+import ProjectInfo from '../components/project-info/project-info';
 
 const App = () => {
   return (
@@ -58,9 +59,9 @@ const getProjects = () => {
   return <section>
     <h1>Featured Projects</h1>
     <div>
-      <img src="https://picsum.photos/500/800"></img>
-      <img src="https://picsum.photos/500/800"></img>
-      <img src="https://picsum.photos/500/800"></img>
+      <ProjectInfo></ProjectInfo>
+      <ProjectInfo></ProjectInfo>
+      <ProjectInfo></ProjectInfo>
     </div>
   </section>
 }
